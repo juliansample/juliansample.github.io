@@ -90,13 +90,18 @@ article{
 
 footer{
     background:#eee;
+ background: url(http://i428.photobucket.com/albums/qq1/juliansample/perfect-diamond-isolated-black-light-53463726_zpszmzgqmib.jpg) no-repeat center;
 }
 
 .jumbotron{
-  background: url(http://i428.photobucket.com/albums/qq1/juliansample/green_zpsdpgaq9oj.jpg?t=1449691141) no-repeat center;
+  background: url(http://i428.photobucket.com/albums/qq1/juliansample/bright-diamond-illustration-18461459_zpsuesfuwkp.jpg) no-repeat center;
   background-size: cover;
 }
 
 .portrait_name{
     background: rgba(230, 230, 230, 0.7);
+}
+
+body {
+    background-color:#00CCCC;
 }
