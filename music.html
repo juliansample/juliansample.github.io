@@ -15,13 +15,16 @@
       <!--This link is for the google fonts API, which lets you customize .-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--This makes the webpage check the size of the device it's on. This lets your page be mobile responsive-->
-<a href="/index.html"></a>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/vader/jquery-ui.css" id="theme">
+    <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
 </head>
+
+
 <style>
+
 body{
-  background:url('http://i428.photobucket.com/albums/qq1/juliansample/bright-diamond-illustration-18461459_zpsuesfuwkp.jpg');
-  
-}
+  background:color(0099FF);
+  }
 
   
   
@@ -37,51 +40,83 @@ body{
    <li role="presentation"><a href="chemestry.html">Chemestry</a></li>
 </ul>
   <div class="jumbotron">
-      <div class="portrait_name">
+     
         <img class="portrait" src=http://i428.photobucket.com/albums/qq1/juliansample/photodune-1664588-sound-mixer-system-with-operating-light-xs1_zpso6ejiqhr.jpg?t=1449778727 >
         <h2>julian sample ( Ju-L)</h2>
-        <p>Computer Science<br>
-          Chicago Tech Academy</p>
-      </div>
+       
+    
   </div>
 
 <content>
-    <article>
+   
         <h2>My Name is julian</h2>
         <p>This is the music page of this website the context consist will consist of things about myself along with projects featured on this website about projects ive done while going to chitech academy. </p>
-    </article>
+
+
+<!-- The dialog widget -->
+<div id="blueimp-gallery-dialog" data-show="slide" data-hide="slide">
+    <!-- The gallery widget  -->
+    <div class="blueimp-gallery blueimp-gallery-carousel blueimp-gallery-controls">
+        <div class="slides"></div>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="play-pause"></a>
+    </div>
+</div>
+
+
 
 <div class="thumbnail_space">
 <div class="row">
     
     <div class="col-sm-6 col-md-6">
-        <div class="thumbnail">
+       
           <a target="_blank" href=""><img  alt="300x200" src=http://i428.photobucket.com/albums/qq1/juliansample/8130965_orig_zpsulb9obck.jpg class="thumbnail_image img-responsive"></a>
             <div class="caption">
                  <h3>Audio project</h3>
 
                 <p>This project me and jovon did for music sophmore year of highschool. Basically we were taking an example for a specific sound by are teacher mr dreaser and made an audio from it. We used also a mac app called garage band an incorperated diffrent sounds to spin are own twist on it.</p>
-<p> use this web adress to visit the audio page  </p>
-<p>( http://joshuadresser.weebly.com/audio.html )</p>
+<p> click this web adress to visit the audio page  </p>
+<a href="url">http://joshuadresser.weebly.com/audio.html </a> 
             </div>
         </div>
     </div>
      
       <div class="col-sm-6 col-md-6">
-        <div class="thumbnail">
+      
           <a target="_blank" href=""><img  alt="300x200" src=http://i428.photobucket.com/albums/qq1/juliansample/20140609__eect0610wilsonhero-5_VIEWER_zpsxfyfknx8.jpg class="thumbnail_image img-responsive"></a>
             <div class="caption">
                  <h3>music</h3>
 
                 <p>Anouther project we completed in are teacher Mr Dresser's were we composed bucket drum music. Basically after we learned what the notes meant ,and how many counts were involved in each note we composed a beat based from the knoledge taught musically by are teacher.</p>
- <p> For more information please copy and paste this link to the chitech website.</p>
- <p>http://joshuadresser.weebly.com/</p>
+ <p> click this link to the chitech website.</p>
+<a href="url">http://joshuadresser.weebly.com/ </a> 
             </div>
         </div>
     </div>
    
 
 </div> <!--End of Row-->
+
+<div class="row">
+<h1>Click images for slide show of pictures presented on this page.</h1>
+
+            <!-- Images can be of any size. The thumbnails should be something like 75px X 75px.  -->
+            <div id="images">
+                <a href="http://i428.photobucket.com/albums/qq1/juliansample/8130965_orig_zpsulb9obck.jpg" data-dialog>
+                    <img src="http://i428.photobucket.com/albums/qq1/juliansample/8130965_orig_zpsulb9obck.jpg">
+                </a>
+                <a href="http://i428.photobucket.com/albums/qq1/juliansample/20140609__eect0610wilsonhero-5_VIEWER_zpsxfyfknx8.jpg" data-dialog>
+                    <img src="http://i428.photobucket.com/albums/qq1/juliansample/20140609__eect0610wilsonhero-5_VIEWER_zpsxfyfknx8.jpg">
+                </a>
+                <a href="http://i428.photobucket.com/albums/qq1/juliansample/coming-soon_zpst69rcyai.jpgg" data-dialog>
+                    <img src="http://i428.photobucket.com/albums/qq1/juliansample/coming-soon_zpst69rcyai.jpg">
+                </a>
+                <a href="http://i428.photobucket.com/albums/qq1/juliansample/coming-soon_zpst69rcyai.jpg" data-dialog>
+                    <img src="http://i428.photobucket.com/albums/qq1/juliansample/coming-soon_zpst69rcyai.jpg">
+                </a>
+               
+               
 </div><!--End of thumbnail_space-->
 </content>
 
@@ -89,7 +124,13 @@ body{
     Footer
 </footer>
 <!--This stuff is the javascript information. The top is for jQuery, the second is Bootstrap, and the 3rd is one one you will edit-->
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="js/scripts.js" type="text/javascript" charset="utf-8"></script>
+	
+	    <!-- Image Gallery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="js/jquery.image-gallery.min.js"></script>
 </body>

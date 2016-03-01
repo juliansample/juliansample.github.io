@@ -93,10 +93,12 @@ footer{
  background: url(http://i428.photobucket.com/albums/qq1/juliansample/perfect-diamond-isolated-black-light-53463726_zpszmzgqmib.jpg) no-repeat center;
 }
 
+
 .jumbotron{
   background: url(http://i428.photobucket.com/albums/qq1/juliansample/bright-diamond-illustration-18461459_zpsuesfuwkp.jpg) no-repeat center;
   background-size: cover;
 }
+
 
 .portrait_name{
     background: rgba(230, 230, 230, 0.7);
@@ -105,3 +107,5 @@ footer{
 body {
     background-color:#00CCCC;
 }
+
+
